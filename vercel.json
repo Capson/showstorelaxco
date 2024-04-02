@@ -1,10 +1,10 @@
 {
-  "redirects": [{"source": "/",       "destination": "/test",       "permanent": true     }, {"source": "/",       "destination": "/ggez",       "permanent": true     }
+  "redirects": [{"source": "/",       "destination": "/test",       "permanent": true     }, {"source": "/me",       "destination": "/ggez",       "permanent": true     }
 ],
   "rewrites": [
     {
       "source": "(/.*)",
-      "destination": "https://show.storelax.co/$1"
+      "destination": "https://popify.site/$1"
     }
   ]
 }
