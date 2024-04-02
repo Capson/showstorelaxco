@@ -4,7 +4,7 @@
   "rewrites": [
     {
       "source": "(/.*)",
-      "destination": "https://show.storelax.co/$1"
+      "destination": "https://flexidomain.in/$1"
     }
   ]
 }
