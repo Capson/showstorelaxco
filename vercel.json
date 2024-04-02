@@ -1,8 +1,10 @@
 {
+  "redirects": [{"source": "/",       "destination": "/test",       "permanent": true     }, {"source": "/",       "destination": "/ggez",       "permanent": true     }
+],
   "rewrites": [
     {
       "source": "(/.*)",
-      "destination": "https://flexidomain.in/$1"
+      "destination": "https://show.storelax.co/$1"
     }
   ]
 }
