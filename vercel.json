@@ -1,8 +1,11 @@
 {
-  "routes": [
+  "redirects": [{"source": "/",       "destination": "/test",       "permanent": true     }
+],
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "https://flexidomain.in/$1"
- }
+      "source": "(/.*)",
+      "destination": "https://show.storelax.co/$1"
+    }
   ]
 }
+    
